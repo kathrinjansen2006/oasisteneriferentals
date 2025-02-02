@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Oasis Tenerife Rentals</title>
+    <link rel="icon" href="/img/favicon/favicon.ico" type="image/ico" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Oasis Tenerife Rentals" name="description">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="/css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="/css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/coloring.css" rel="stylesheet" type="text/css">
+    <link id="colors" href="/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+    <a href="#" id="back-to-top"></a>
+    <div id="de-loader"></div>
+    <header class="transparent has-topbar logo-center">
+        <div id="topbar">
+            <div class="container-fluid px-lg-5 px-3">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-between xs-hide">
+                            <div class="header-widget d-flex">
+                                <div class="topbar-widget"><a href="https://maps.app.goo.gl/DjKTJkWXTTwf2uwi9"
+                                                              target="_blank"><i
+                                        class="icofont-location-pin"></i>Calle Los Valos, 77. 38616 El
+                                    Desierto, Granadilla de Abona, Tenerife</a></div>
+                                <div class="topbar-widget"><a href="tel:+34680977755"><i
+                                        class="icofont-phone"></i>+34 680 977 755</a></div>
+                                <div class="topbar-widget"><a href="mailto:bookings@oasisteneriferentals.com"><i
+                                        class="icofont-envelope"></i>bookings@oasisteneriferentals.com</a>
+                                </div>
+                            </div>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/people/Oasis-Tenerife-Rentals/61572404259325/" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                <a href="https://www.instagram.com/oasisteneriferentals/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-lg-5 px-3">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="de-flex">
+                        <div class="col-start">
+                            <ul id="mainmenu">
+                                <li><a class="menu-item" href="#section-intro">Oasis Tenerife</a></li>
+                                <li><a class="menu-item" href="rooms.html">Rooms</a></li>
+                                <li><a class="menu-item" href="facilities.html">Facilities</a></li>
+                                <li><a class="menu-item" href="gallery.html">Gallery</a></li>
+                                <li><a class="menu-item" href="qa.html">Q&amp;A</a></li>
+                                <li><a class="menu-item" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-center">
+                            <a href="index.html"><img src="/img/logo-home-iso-white.svg" alt="Oasis Tenerife Rentals Logo" style="height: 60px"></a>
+                        </div>
+                        <div class="col-end">
+                            <div class="menu_side_area">
+                                <a href="#section_form" class="btn-main btn-line sm-hide">Book Now</a>
+                                <span id="menu-btn"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="no-bottom no-top" id="content">
+        <div id="top"></div>
+        <section id="section-intro"
+                 class="section-dark text-light no-top no-bottom position-relative overflow-hidden z-1000">
+            <div class="v-center relative">
+                <div class="abs abs-centered z-1000 w-100">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <h1 class="mb-2 wow fadeInUp" data-wow-delay=".3s">Oasis Tenerife Rentals</h1>
+                                <p class="lead wow fadeInUp" style="background-color: var(--primary-color);" data-wow-delay=".6s">Relax & Enjoy Tenerife – Your Perfect Getaway!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="abs bottom-0 z-1000 w-100 xs-hide">
+                    <div class="container-fluid p-lg-5 p-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="bg-blur padding40 py-4 wow fadeInDown" data-wow-delay=".9s">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-lg-9">
+                                            <div class="row g-4 align-items-center">
+                                                <div class="col-md-3 text-lg-start text-center">
+                                                    <h3 class="mb-0">Reservation</h3>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="text-center ">
+                                                        <h6 class="mb-1">Choose Date</h6>
+                                                        <input type="text" id="date-picker"
+                                                               class="form-control no-border no-bg bg-focus-color text-white fs-20 text-right text-center"
+                                                               name="date" value="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="text-center ">
+                                                        <h6>Adult</h6>
+                                                        <div class="de-number">
+                                                            <span class="d-minus">-</span>
+                                                            <input type="text" class="no-border no-bg"
+                                                                   value="1">
+                                                            <span class="d-plus">+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="text-center ">
+                                                        <h6>Children</h6>
+                                                        <div class="de-number">
+                                                            <span class="d-minus">-</span>
+                                                            <input type="text" class="no-border no-bg"
+                                                                   value="0">
+                                                            <span class="d-plus">+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 text-lg-end text-center">
+                                            <a class="btn-main" href="rooms.html">Check Availability</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper-inner" data-bgimage="url(/img/home-gallery/pexels-quang-nguyen-vinh-222549-12387908.jpg)">
+                                <div class="sw-overlay op-2"></div>
+                            </div>
+                        </div>
+                        <!-- Slides -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                            <span class="d-stars wow fadeInUp">
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                            </span>
+                        <h2 class="mt-3 wow fadeInUp">Welcome to Oasis Tenerife Rentals</h2>
+                        <p class="lead wow fadeInUp">Experience comfort and relaxation at Oasis Tenerife Rentals. Our stylish studio rentals feature a refreshing pool, perfect for unwinding after a day of exploring. Enjoy a peaceful getaway in the heart of Tenerife.</p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".0s">
+                        <img src="images/misc/4.webp" class="w-100 mb-3 soft-shadow" alt="">
+                        <h3>Pool</h3>
+                        <p class="mb-0">Nice pool</p>
+                    </div>
+
+                    <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".3s">
+                        <img src="images/misc/11.webp" class="w-100 mb-3 soft-shadow" alt="">
+                        <h3>Outdoor Kitchen</h3>
+                        <p class="mb-0">Nice outdoor kitchen.</p>
+                    </div>
+
+                    <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay=".6s">
+                        <img src="images/misc/12.webp" class="w-100 mb-3 soft-shadow" alt="">
+                        <h3>Independent Studios</h3>
+                        <p class="mb-0">Independent Studios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-about">
+            <div class="container">
+                <div class="row g-4">
+
+                    <div class="col-lg-12 text-center">
+                        <div class="wow scaleIn">
+                            <h2 class="wow fadeInUp">Facilities</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row g-4 relative z-2">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".0s">
+                        <div class="relative p-4 bg-white soft-shadow">
+                                <span class="abs w-70px p-3 bg-color d-block">
+                                    <img src="images/svg/restaurant-svgrepo-com.svg" class="w-100" alt="">
+                                </span>
+                            <div class="pl-90">
+                                <h4>Restaurant</h4>
+                                <p class="mb-0">Do dolore laboris commodo amet cillum qui voluptate velit
+                                    occaecat adipisicing laboris est minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="relative p-4 bg-white soft-shadow">
+                                <span class="abs w-70px p-3 bg-color d-block">
+                                    <img src="images/svg/swimming-pool-svgrepo-com.svg" class="w-100" alt="">
+                                </span>
+                            <div class="pl-90">
+                                <h4>Swimming Pool</h4>
+                                <p class="mb-0">Do dolore laboris commodo amet cillum qui voluptate velit
+                                    occaecat adipisicing laboris est minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="relative p-4 bg-white soft-shadow">
+                                <span class="abs w-70px p-3 bg-color d-block">
+                                    <img src="images/svg/fitness-gym-svgrepo-com.svg" class="w-100" alt="">
+                                </span>
+                            <div class="pl-90">
+                                <h4>Fitness Center</h4>
+                                <p class="mb-0">Do dolore laboris commodo amet cillum qui voluptate velit
+                                    occaecat adipisicing laboris est minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
+                        <div class="relative p-4 bg-white soft-shadow">
+                                <span class="abs w-70px p-3 bg-color d-block">
+                                    <img src="images/svg/flower-lotus-thin-svgrepo-com.svg" class="w-100"
+                                         alt="">
+                                </span>
+                            <div class="pl-90">
+                                <h4>Spa &amp; Massage</h4>
+                                <p class="mb-0">Do dolore laboris commodo amet cillum qui voluptate velit
+                                    occaecat adipisicing laboris est minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
+                        <div class="relative p-4 bg-white soft-shadow">
+                                <span class="abs w-70px p-3 bg-color d-block">
+                                    <img src="images/svg/meeting-explain-svgrepo-com.svg" class="w-100"
+                                         alt="">
+                                </span>
+                            <div class="pl-90">
+                                <h4>Meeting Room</h4>
+                                <p class="mb-0">Do dolore laboris commodo amet cillum qui voluptate velit
+                                    occaecat adipisicing laboris est minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.5s">
+                        <div class="relative p-4 bg-white soft-shadow">
+                                <span class="abs w-70px p-3 bg-color d-block">
+                                    <img src="images/svg/laundry-machine-svgrepo-com.svg" class="w-100"
+                                         alt="">
+                                </span>
+                            <div class="pl-90">
+                                <h4>Laundry Service</h4>
+                                <p class="mb-0">Do dolore laboris commodo amet cillum qui voluptate velit
+                                    occaecat adipisicing laboris est minim.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section-rooms" class="no-top">
+            <div class="container-fluid relative z-2">
+                <div class="row g-4">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                        <h2 class="wow fadeInUp">Accomodation</h2>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="owl-custom-nav menu-float px-5" data-target="#room-carousel">
+                            <a class="btn-next"></a>
+                            <a class="btn-prev"></a>
+
+                            <div id="room-carousel" class="owl-3-cols owl-carousel owl-theme">
+                                <!-- room begin -->
+                                <div class="item">
+                                    <div class="hover relative text-light text-center wow fadeInUp"
+                                         data-wow-delay=".3s">
+                                        <img src="images/room/1.webp" class="w-100" alt="">
+                                        <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
+                                            <div class="fs-14">From</div>
+                                            <h3 class="fs-40 lh-1 mb-4">$129</h3>
+                                        </div>
+                                        <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                        <div class="abs bg-blur py-3 z-2 bottom-0 w-100 text-center hover-op-0">
+                                            <h3 class="mb-0">Standard Room</h3>
+                                            <div class="text-center fs-14">
+                                                    <span class="mx-2">
+                                                        2 Guests
+                                                    </span>
+                                                <span class="mx-2">
+                                                        30 ft
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0"></div>
+                                    </div>
+                                </div>
+                                <!-- room end -->
+
+                                <!-- room begin -->
+                                <div class="item">
+                                    <div class="hover relative text-light text-center wow fadeInUp"
+                                         data-wow-delay=".4s">
+                                        <img src="images/room/2.webp" class="w-100" alt="">
+                                        <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
+                                            <div class="fs-14">From</div>
+                                            <h3 class="fs-40 lh-1 mb-4">$129</h3>
+                                        </div>
+                                        <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                        <div class="abs bg-blur py-3 z-2 bottom-0 w-100 text-center hover-op-0">
+                                            <h3 class="mb-0">Deluxe Room</h3>
+                                            <div class="text-center fs-14">
+                                                    <span class="mx-2">
+                                                        2 Guests
+                                                    </span>
+                                                <span class="mx-2">
+                                                        35 ft
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0"></div>
+                                    </div>
+                                </div>
+                                <!-- room end -->
+
+                                <!-- room begin -->
+                                <div class="item">
+                                    <div class="hover relative text-light text-center wow fadeInUp"
+                                         data-wow-delay=".5s">
+                                        <img src="images/room/3.webp" class="w-100" alt="">
+                                        <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
+                                            <div class="fs-14">From</div>
+                                            <h3 class="fs-40 lh-1 mb-4">$139</h3>
+                                        </div>
+                                        <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                        <div class="abs bg-blur py-3 z-2 bottom-0 w-100 text-center hover-op-0">
+                                            <h3 class="mb-0">Premier Room</h3>
+                                            <div class="text-center fs-14">
+                                                    <span class="mx-2">
+                                                        2 Guests
+                                                    </span>
+                                                <span class="mx-2">
+                                                        35 ft
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0"></div>
+                                    </div>
+                                </div>
+                                <!-- room end -->
+
+                                <!-- room begin -->
+                                <div class="item">
+                                    <div class="hover relative text-light text-center wow fadeInUp"
+                                         data-wow-delay=".7s">
+                                        <img src="images/room/4.webp" class="w-100" alt="">
+                                        <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
+                                            <div class="fs-14">From</div>
+                                            <h3 class="fs-40 lh-1 mb-4">$149</h3>
+                                        </div>
+                                        <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                        <div class="abs bg-blur py-3 z-2 bottom-0 w-100 text-center hover-op-0">
+                                            <h3 class="mb-0">Family Suite</h3>
+                                            <div class="text-center fs-14">
+                                                    <span class="mx-2">
+                                                        4 Guests
+                                                    </span>
+                                                <span class="mx-2">
+                                                        60 ft
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0"></div>
+                                    </div>
+                                </div>
+                                <!-- room end -->
+
+                                <!-- room begin -->
+                                <div class="item">
+                                    <div class="hover relative text-light text-center wow fadeInUp"
+                                         data-wow-delay=".7s">
+                                        <img src="images/room/5.webp" class="w-100" alt="">
+                                        <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
+                                            <div class="fs-14">From</div>
+                                            <h3 class="fs-40 lh-1 mb-4">$179</h3>
+                                        </div>
+                                        <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                        <div class="abs bg-blur py-3 z-2 bottom-0 w-100 text-center hover-op-0">
+                                            <h3 class="mb-0">Luxury Suite</h3>
+                                            <div class="text-center fs-14">
+                                                    <span class="mx-2">
+                                                        4 Guests
+                                                    </span>
+                                                <span class="mx-2">
+                                                        60 ft
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0"></div>
+                                    </div>
+                                </div>
+                                <!-- room end -->
+
+                                <!-- room begin -->
+                                <div class="item">
+                                    <div class="hover relative text-light text-center wow fadeInUp"
+                                         data-wow-delay=".7s">
+                                        <img src="images/room/6.webp" class="w-100" alt="">
+                                        <div class="abs hover-op-1 z-4 hover-mt-40 abs-centered">
+                                            <div class="fs-14">From</div>
+                                            <h3 class="fs-40 lh-1 mb-4">$199</h3>
+                                        </div>
+                                        <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                                        <div class="abs bg-blur py-3 z-2 bottom-0 w-100 text-center hover-op-0">
+                                            <h3 class="mb-0">Presidential Suite</h3>
+                                            <div class="text-center fs-14">
+                                                    <span class="mx-2">
+                                                        4 Guests
+                                                    </span>
+                                                <span class="mx-2">
+                                                        60 ft
+                                                    </span>
+                                            </div>
+                                        </div>
+                                        <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0"></div>
+                                    </div>
+                                </div>
+                                <!-- room end -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- content close -->
+
+    <!-- footer begin -->
+    <footer class="text-light section-dark">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-12">
+                    <div class="d-lg-flex align-items-center justify-content-between text-center">
+                        <div>
+                            <h3 class="fs-20">Address</h3>
+                            <a href="https://maps.app.goo.gl/DjKTJkWXTTwf2uwi9"
+                               target="_blank">
+                            Calle Los Valos, 77<br>
+                            38616 El Desierto<br>
+                            Granadilla de Abona, Tenerife
+                            </a>
+                        </div>
+                        <div>
+                            <img src="/img/logo-home-white.svg" class="w-200px" alt=""><br>
+                            <div class="social-icons mb-sm-30 mt-4">
+                                <a href="https://www.facebook.com/people/Oasis-Tenerife-Rentals/61572404259325/" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                <a href="https://www.instagram.com/oasisteneriferentals/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                            </div>
+
+                        </div>
+                        <div>
+                            <h3 class="fs-20">Contact Us</h3>
+                            +34 680 977 755<br>
+                            bookings@oasisteneriferentals.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        Copyright 2025 - <a href="privacy.html">Privacy Policy</a> - <a href="about.html">About us</a> - <a href="contact.html">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer close -->
+</div>
+
+
+<!-- Javascript Files
+================================================== -->
+<script src="js/plugins.js"></script>
+<script src="js/designesia.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/custom-marquee.js"></script>
+<script src="js/custom-swiper-3.js"></script>
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+<script src="contact.js"></script>
+
+</body>
+
+</html>
